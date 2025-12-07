@@ -1,0 +1,23 @@
+---
+title: "SEMANA 8"
+author: "FERREYRA FAJARDO"
+format: html
+editor: visual
+---
+
+## SEMANA 8: **Como instalar un paquete en Rstudio – realizar tu grafico estadístico (Histograma)**
+
+```{r}
+#primero escribimos el nombre del paquete y lo ejecutamos 
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+```{r}
+#realizamos el histograma 
+ggplot(data,aes(x=CDAI))+geom_histogram(bins= 30)+theme_minimal()
+```
+
+```{r}
+# y si está bien ejecutado se debería de mostrar la siguiente grafica 
+```

@@ -1,0 +1,24 @@
+---
+title: "SEMANA 4"
+author: "FERREYRA FAJARDO"
+format: html
+editor: visual
+---
+
+## SEMANA 4: Como descargar un archivo en formato CSV del repositorio GIBHUB
+
+```{r}
+#me ubico en la guía 
+```
+
+```{r}
+#ingreso al repositorio Gib Hub
+```
+
+```{r}
+#Ingreso a la carpeta de data y ubico el archivo en formato CSV 
+```
+
+```{r}
+#descargar archivo 
+```

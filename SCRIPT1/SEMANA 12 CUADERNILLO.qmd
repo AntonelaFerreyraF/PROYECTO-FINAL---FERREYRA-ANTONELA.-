@@ -1,0 +1,49 @@
+---
+title: "SEMANA 12"
+author: "FERREYRA FAJARDO"
+format: html
+editor: visual
+---
+
+## SEMANA 12:**Calcular las medidas de dispersión (varianza, desviación estándar, rango, rango intercuartilico) y de posición (cuartiles), script para visualizar las 6 primeras filas, y para poder visualizar un resumen y para poder visualizar un resumen de dichas medidas** 
+
+```{r}
+#varianza
+```
+
+```{r}
+#MEDIDAS DE DISPERSION 
+#VARIANZA 
+var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#DESVIACION ESTANDAR 
+sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO 
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTLICO 
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#MEDIDAS DE POSICION 
+quantile(data$Edad,probs =c(0.25,0.50,0.75,0.90),na.rm = TRUE )
+summary(data$Edad)
+```
+
+```{r}
+#ver las 6 primeras filas de la data 
+head(data)
+```
+
+```{r}
+#RESUMEN DE TODAS LAS VARIABLES 
+summary(data)
+```

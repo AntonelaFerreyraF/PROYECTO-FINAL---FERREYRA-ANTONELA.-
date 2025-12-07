@@ -1,0 +1,32 @@
+---
+title: "SEMANA 2"
+author: "FERREYRA FAJARDO"
+format: html
+editor: visual
+---
+
+## SEMANA 2: Como crear un proyecto en Rstudio
+
+```{r}
+#en la parte superior derecha: seleccionamos New Project 
+```
+
+```{r}
+#seleccionamos nuevo directorio 
+```
+
+```{r}
+#Seleccionamos nuevo proyecto 
+```
+
+```{r}
+#ubicar el proyecto 
+```
+
+```{r}
+#seleccionar carpeta a guardar
+```
+
+```{r}
+#Visualizamos el proyecto 
+```

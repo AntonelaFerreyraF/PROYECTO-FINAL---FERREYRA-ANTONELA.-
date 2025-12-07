@@ -1,0 +1,30 @@
+---
+title: "SEMANA 6"
+author: "FERREYRA FAJARDO"
+format: html
+editor: visual
+---
+
+## SEMANA 6: Como limpiar una data para utilizar una columna especifica
+
+```{r}
+#Presionamos en import dataset
+```
+
+```{r}
+#le damos a browser y buscamos el archivo 
+```
+
+```{r}
+#abrimos el archivo y copiamos y pegamos para trabajar con esa data
+```
+
+```{r}
+#crear data nueva  
+data<- read_csv("C:/Users/PC/Downloads/s02_treat_artritis.csv")
+```
+
+```{r}
+#luego ponemos la fórmula para limpiar la data y lo ejecutamos 
+data_limpia<-data[!is.na(data$CDAI),]
+```
